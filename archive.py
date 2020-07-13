@@ -27,6 +27,8 @@ URLS = [
     # v2ray
     'https://github.com/v2ray/v2ray-core', 'https://github.com/v2ray/v2ray-core/archive/master.zip',
     'https://github.com/v2fly/v2ray-core', 'https://github.com/v2fly/v2ray-core/archive/master.zip',
+    'https://github.com/v2ray/manual', 'https://github.com/v2ray/manual/archive/master.zip',
+    'https://github.com/v2fly/manual', 'https://github.com/v2fly/manual/archive/master.zip',
 
     # trojan
     'https://github.com/trojan-gfw/trojan', 'https://github.com/trojan-gfw/trojan/archive/master.zip',
