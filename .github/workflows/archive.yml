@@ -9,7 +9,7 @@ on:
     types: [ edited ]
 
   schedule:
-    # 0, minute | any, hour | any, day | any, month | any, day of week
+    # 0 (minute) | any (hour) | any (day) | any (month) | any (day of week)
     - cron: "0 * * * *"
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
