@@ -52,6 +52,11 @@ URLS = [
     'https://github.com/shadowsocks/Shadowsocks-Net', 'https://github.com/shadowsocks/Shadowsocks-Net/archive/master.zip',
     'https://github.com/shadowsocks/luci-app-shadowsocks', 'https://github.com/shadowsocks/luci-app-shadowsocks/archive/master.zip',
 
+    # geph
+    'https://github.com/geph-official/geph2', 'https://github.com/geph-official/geph2/archive/master.zip',
+    'https://github.com/geph-official/gephgui', 'https://github.com/geph-official/gephgui/archive/master.zip',
+    'https://github.com/geph-official/geph-android', 'https://github.com/geph-official/geph-android/archive/master.zip',
+
     # chinadns
     'https://github.com/shadowsocks/ChinaDNS', 'https://github.com/shadowsocks/ChinaDNS/archive/master.zip',
     'https://github.com/shadowsocks/ChinaDNS-Python', 'https://github.com/shadowsocks/ChinaDNS-Python/archive/master.zip',
