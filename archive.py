@@ -78,6 +78,7 @@ URLS = [
 
     # clash
     'https://github.com/Dreamacro/clash', 'https://github.com/Dreamacro/clash/archive/master.zip',
+    'https://github.com/Dreamacro/clash-dashboard', 'https://github.com/Dreamacro/clash-dashboard/archive/master.zip',
     'https://github.com/trojan-gfw/clash', 'https://github.com/trojan-gfw/clash/archive/igniter-go-libs.zip',
 
     # gost
