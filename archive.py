@@ -7,6 +7,9 @@ import json
 
 USER_AGENT = 'Mozilla/5.0 (X11; Linux x86_64; rv:68.0) Gecko/20100101 Firefox/68.0'
 URLS = [
+    # linux
+    'https://github.com/torvalds/linux', 'https://github.com/torvalds/linux/archive/master.zip',
+
     # i2p
     'https://github.com/i2p/i2p.i2p', 'https://github.com/i2p/i2p.i2p/archive/master.zip',
     'https://github.com/i2p/i2psam', 'https://github.com/i2p/i2psam/archive/master.zip',
