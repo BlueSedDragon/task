@@ -15,6 +15,10 @@ URLS = [
     'https://github.com/i2p/i2p.android.base', 'https://github.com/i2p/i2p.android.base/archive/master.zip',
     'https://github.com/i2p/i2p.i2p-bote', 'https://github.com/i2p/i2p.i2p-bote/archive/master.zip',
 
+    # tor
+    'https://gitweb.torproject.org/tor.git/',
+    'https://github.com/torproject/tor', 'https://github.com/torproject/tor/archive/master.zip',
+
     # monero
     'https://github.com/monero-project/monero', 'https://github.com/monero-project/monero/archive/master.zip',
     'https://github.com/monero-project/monero-gui', 'https://github.com/monero-project/monero-gui/archive/master.zip',
