@@ -75,6 +75,9 @@ URLS = [
     # gost
     'https://github.com/ginuerzh/gost', 'https://github.com/ginuerzh/gost/archive/master.zip',
 
+    # gotox
+    'https://github.com/SeaHOH/GotoX', 'https://github.com/SeaHOH/GotoX/archive/master.zip',
+
     # accesser
     'https://github.com/URenko/Accesser', 'https://github.com/URenko/Accesser/archive/master.zip',
 
