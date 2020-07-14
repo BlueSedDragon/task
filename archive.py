@@ -31,6 +31,9 @@ URLS = [
     'https://gitlab.com/kovri-project/kovri-docs', 'https://gitlab.com/kovri-project/kovri-docs/-/archive/master/kovri-docs-master.zip',
     'https://gitlab.com/kovri-project/kovri-site', 'https://gitlab.com/kovri-project/kovri-site/-/archive/master/kovri-site-master.zip',
 
+    # node.js
+    'https://github.com/nodejs/node', 'https://github.com/nodejs/node/archive/master.zip',
+
     # v2ray
     'https://github.com/v2ray/v2ray-core', 'https://github.com/v2ray/v2ray-core/archive/master.zip',
     'https://github.com/v2fly/v2ray-core', 'https://github.com/v2fly/v2ray-core/archive/master.zip',
@@ -66,6 +69,9 @@ URLS = [
     'https://github.com/geph-official/geph2', 'https://github.com/geph-official/geph2/archive/master.zip',
     'https://github.com/geph-official/gephgui', 'https://github.com/geph-official/gephgui/archive/master.zip',
     'https://github.com/geph-official/geph-android', 'https://github.com/geph-official/geph-android/archive/master.zip',
+
+    # xx-net
+    'https://github.com/XX-net/XX-Net', 'https://github.com/XX-net/XX-Net/archive/master.zip',
 
     # chinadns
     'https://github.com/shadowsocks/ChinaDNS', 'https://github.com/shadowsocks/ChinaDNS/archive/master.zip',
