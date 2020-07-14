@@ -101,6 +101,9 @@ URLS = [
     'https://github.com/gfwlist/tinylist', 'https://github.com/gfwlist/tinylist/archive/master.zip',
     'https://github.com/gfwlist/apollyon', 'https://github.com/gfwlist/apollyon/archive/master.zip',
     'https://github.com/gfwlist/tsilwfg', 'https://github.com/gfwlist/tsilwfg/archive/master.zip',
+
+    # i
+    'https://github.com/BlueSedDragon/task', 'https://github.com/BlueSedDragon/task/archive/master.zip',
 ]
 
 
