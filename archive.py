@@ -150,6 +150,7 @@ def main():
             try:
                 res = save(url)
                 if res.status_code == 429:
+                    left += 1
                     time.sleep(2)
                     raise Exception('HTTP Status == 429')
                 if str(res.status_code)[0] != '2':
