@@ -107,6 +107,7 @@ URLS = [
     'https://github.com/BlueSedDragon/task', 'https://github.com/BlueSedDragon/task/archive/master.zip',
 ]
 
+
 def log(*args):
     print(f'[{time.time()}] ;', *args)
 
