@@ -1,5 +1,6 @@
 import sys
 import time
+import random
 
 from urllib.parse import urlencode
 import requests
@@ -106,7 +107,6 @@ URLS = [
     'https://github.com/BlueSedDragon/task', 'https://github.com/BlueSedDragon/task/archive/master.zip',
 ]
 
-
 def log(*args):
     print(f'[{time.time()}] ;', *args)
 
@@ -141,6 +141,7 @@ def save(url):
 
 
 def main():
+    random.shuffle(URLS)
     for url in URLS:
         print('=' * 50)
 
