@@ -75,6 +75,11 @@ URLS = [
     # utls
     'https://github.com/refraction-networking/utls', 'https://github.com/refraction-networking/utls/archive/master.zip',
 
+    # symtcp
+    'https://github.com/seclab-ucr/SymTCP', 'https://github.com/seclab-ucr/SymTCP/archive/master.zip',
+    # intang
+    'https://github.com/seclab-ucr/INTANG', 'https://github.com/seclab-ucr/INTANG/archive/master.zip',
+
     # node.js
     'https://github.com/nodejs/node', 'https://github.com/nodejs/node/archive/master.zip',
 
