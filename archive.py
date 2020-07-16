@@ -34,6 +34,12 @@ URLS = [
     'https://github.com/HelloZeroNet/ZeroBlog', 'https://github.com/HelloZeroNet/ZeroBlog/archive/master.zip',
     'https://github.com/HelloZeroNet/ZeroMe', 'https://github.com/HelloZeroNet/ZeroMe/archive/master.zip',
 
+    # syncthing
+    'https://github.com/syncthing/syncthing', 'https://github.com/syncthing/syncthing/archive/main.zip',
+    'https://github.com/syncthing/syncthing-android', 'https://github.com/syncthing/syncthing-android/archive/master.zip',
+    'https://github.com/syncthing/syncthing-macos', 'https://github.com/syncthing/syncthing-macos/archive/develop.zip',
+    'https://github.com/syncthing/docs', 'https://github.com/syncthing/docs/archive/main.zip',
+
     # monero
     'https://github.com/monero-project/monero', 'https://github.com/monero-project/monero/archive/master.zip',
     'https://github.com/monero-project/monero-gui', 'https://github.com/monero-project/monero-gui/archive/master.zip',
@@ -46,6 +52,13 @@ URLS = [
     # bitcoin
     'https://github.com/bitcoin/bitcoin', 'https://github.com/bitcoin/bitcoin/archive/master.zip',
     'https://github.com/bitcoin/bips', 'https://github.com/bitcoin/bips/archive/master.zip',
+
+    # ethereum
+    'https://github.com/ethereum/go-ethereum', 'https://github.com/ethereum/go-ethereum/archive/master.zip',
+    'https://github.com/ethereum/EIPs', 'https://github.com/ethereum/EIPs/archive/master.zip',
+    'https://github.com/ethereum/solidity', 'https://github.com/ethereum/solidity/archive/develop.zip',
+    'https://github.com/ethereum/remix', 'https://github.com/ethereum/remix/archive/master.zip',
+    'https://github.com/ethereum/web3.js', 'https://github.com/ethereum/web3.js/archive/1.x.zip',
 
     # utls
     'https://github.com/refraction-networking/utls', 'https://github.com/refraction-networking/utls/archive/master.zip',
