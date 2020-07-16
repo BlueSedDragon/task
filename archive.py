@@ -100,11 +100,14 @@ URLS = [
     # accesser
     'https://github.com/URenko/Accesser', 'https://github.com/URenko/Accesser/archive/master.zip',
 
-    # gfwlist
+    # gfwlist/a
     'https://github.com/gfwlist/gfwlist', 'https://github.com/gfwlist/gfwlist/archive/master.zip',
     'https://github.com/gfwlist/tinylist', 'https://github.com/gfwlist/tinylist/archive/master.zip',
     'https://github.com/gfwlist/apollyon', 'https://github.com/gfwlist/apollyon/archive/master.zip',
     'https://github.com/gfwlist/tsilwfg', 'https://github.com/gfwlist/tsilwfg/archive/master.zip',
+    # gfwlist/b
+    'https://github.com/Loukky/gfwlist-by-loukky', 'https://github.com/Loukky/gfwlist-by-loukky/archive/master.zip',
+    'https://github.com/poctopus/gfwlist-plus', 'https://github.com/poctopus/gfwlist-plus/archive/master.zip',
 
     # i
     'https://github.com/BlueSedDragon/task', 'https://github.com/BlueSedDragon/task/archive/master.zip',
