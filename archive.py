@@ -23,6 +23,14 @@ URLS = [
     'https://gitweb.torproject.org/tor.git/',
     'https://github.com/torproject/tor', 'https://github.com/torproject/tor/archive/master.zip',
 
+    # zeronet
+    'https://github.com/HelloZeroNet/ZeroNet', 'https://github.com/HelloZeroNet/ZeroNet/archive/py3.zip',
+    'https://github.com/HelloZeroNet/ZeroMail', 'https://github.com/HelloZeroNet/ZeroMail/archive/master.zip',
+    'https://github.com/HelloZeroNet/ZeroBundle', 'https://github.com/HelloZeroNet/ZeroBundle/archive/py3.zip',
+    'https://github.com/HelloZeroNet/ZeroNet-kivy', 'https://github.com/HelloZeroNet/ZeroNet-kivy/archive/master.zip',
+    'https://github.com/HelloZeroNet/ZeroBlog', 'https://github.com/HelloZeroNet/ZeroBlog/archive/master.zip',
+    'https://github.com/HelloZeroNet/ZeroMe', 'https://github.com/HelloZeroNet/ZeroMe/archive/master.zip',
+
     # monero
     'https://github.com/monero-project/monero', 'https://github.com/monero-project/monero/archive/master.zip',
     'https://github.com/monero-project/monero-gui', 'https://github.com/monero-project/monero-gui/archive/master.zip',
@@ -31,6 +39,10 @@ URLS = [
     'https://gitlab.com/kovri-project/kovri', 'https://gitlab.com/kovri-project/kovri/-/archive/master/kovri-master.zip',
     'https://gitlab.com/kovri-project/kovri-docs', 'https://gitlab.com/kovri-project/kovri-docs/-/archive/master/kovri-docs-master.zip',
     'https://gitlab.com/kovri-project/kovri-site', 'https://gitlab.com/kovri-project/kovri-site/-/archive/master/kovri-site-master.zip',
+
+    # bitcoin
+    'https://github.com/bitcoin/bitcoin', 'https://github.com/bitcoin/bitcoin/archive/master.zip',
+    'https://github.com/bitcoin/bips', 'https://github.com/bitcoin/bips/archive/master.zip',
 
     # utls
     'https://github.com/refraction-networking/utls', 'https://github.com/refraction-networking/utls/archive/master.zip',
