@@ -32,6 +32,9 @@ URLS = [
     'https://gitlab.com/kovri-project/kovri-docs', 'https://gitlab.com/kovri-project/kovri-docs/-/archive/master/kovri-docs-master.zip',
     'https://gitlab.com/kovri-project/kovri-site', 'https://gitlab.com/kovri-project/kovri-site/-/archive/master/kovri-site-master.zip',
 
+    # utls
+    'https://github.com/refraction-networking/utls', 'https://github.com/refraction-networking/utls/archive/master.zip',
+
     # node.js
     'https://github.com/nodejs/node', 'https://github.com/nodejs/node/archive/master.zip',
 
