@@ -22,6 +22,9 @@ URLS = [
     # tor
     'https://gitweb.torproject.org/tor.git/',
     'https://github.com/torproject/tor', 'https://github.com/torproject/tor/archive/master.zip',
+    # orbot
+    'https://github.com/guardianproject/orbot', 'https://github.com/guardianproject/orbot/archive/master.zip',
+    'https://gitlab.com/guardianproject/orbot', 'https://gitlab.com/guardianproject/orbot/-/archive/master/orbot-master.zip',
 
     # zeronet
     'https://github.com/HelloZeroNet/ZeroNet', 'https://github.com/HelloZeroNet/ZeroNet/archive/py3.zip',
@@ -80,6 +83,14 @@ URLS = [
     'https://github.com/shadowsocks/v2ray-plugin-android', 'https://github.com/shadowsocks/v2ray-plugin-android/archive/master.zip',
     'https://github.com/shadowsocks/Shadowsocks-Net', 'https://github.com/shadowsocks/Shadowsocks-Net/archive/master.zip',
     'https://github.com/shadowsocks/luci-app-shadowsocks', 'https://github.com/shadowsocks/luci-app-shadowsocks/archive/master.zip',
+
+    # udp2raw
+    'https://github.com/wangyu-/udp2raw-tunnel', 'https://github.com/wangyu-/udp2raw-tunnel/archive/unified.zip',
+    'https://github.com/wangyu-/udp2raw-multiplatform', 'https://github.com/wangyu-/udp2raw-multiplatform/archive/mp.zip',
+    'https://github.com/wangyu-/UDPspeeder', 'https://github.com/wangyu-/UDPspeeder/archive/branch_libev.zip',
+    'https://github.com/wangyu-/UDPping', 'https://github.com/wangyu-/UDPping/archive/master.zip',
+    'https://github.com/wangyu-/tinyPortMapper', 'https://github.com/wangyu-/tinyPortMapper/archive/branch_libev.zip',
+    'https://github.com/wangyu-/tinyfecVPN', 'https://github.com/wangyu-/tinyfecVPN/archive/master.zip',
 
     # geph
     'https://github.com/geph-official/geph2', 'https://github.com/geph-official/geph2/archive/master.zip',
