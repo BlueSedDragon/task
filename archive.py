@@ -34,6 +34,18 @@ URLS = [
     'https://github.com/HelloZeroNet/ZeroBlog', 'https://github.com/HelloZeroNet/ZeroBlog/archive/master.zip',
     'https://github.com/HelloZeroNet/ZeroMe', 'https://github.com/HelloZeroNet/ZeroMe/archive/master.zip',
 
+    # tox
+    'https://github.com/TokTok/c-toxcore', 'https://github.com/TokTok/c-toxcore/archive/master.zip',
+
+    # ipfs
+    'https://github.com/ipfs/ipfs', 'https://github.com/ipfs/ipfs/archive/master.zip',
+    'https://github.com/ipfs/ipfs-docs', 'https://github.com/ipfs/ipfs-docs/archive/master.zip',
+    'https://github.com/ipfs/js-ipfs', 'https://github.com/ipfs/js-ipfs/archive/master.zip',
+    'https://github.com/ipfs/go-ipfs', 'https://github.com/ipfs/go-ipfs/archive/master.zip',
+    'https://github.com/ipfs/team-mgmt', 'https://github.com/ipfs/team-mgmt/archive/master.zip',
+    'https://github.com/ipfs/awesome-ipfs', 'https://github.com/ipfs/awesome-ipfs/archive/master.zip',
+    'https://github.com/ipfs/community', 'https://github.com/ipfs/community/archive/master.zip',
+
     # syncthing
     'https://github.com/syncthing/syncthing', 'https://github.com/syncthing/syncthing/archive/main.zip',
     'https://github.com/syncthing/syncthing-android', 'https://github.com/syncthing/syncthing-android/archive/master.zip',
