@@ -108,9 +108,11 @@ URLS = list({
 
     # trojan
     'https://github.com/trojan-gfw/trojan', 'https://github.com/trojan-gfw/trojan/archive/master.zip',
-    'https://github.com/trojan-gfw/igniter', 'https://github.com/trojan-gfw/igniter/archive/master.zip',
     'https://github.com/trojan-gfw/trojan-manager', 'https://github.com/trojan-gfw/trojan-manager/archive/master.zip',
     'https://github.com/trojan-gfw/trojan-panel', 'https://github.com/trojan-gfw/trojan-panel/archive/master.zip',
+    # igniter
+    'https://github.com/trojan-gfw/igniter', 'https://github.com/trojan-gfw/igniter/archive/master.zip',
+    'https://github.com/trojan-gfw/igniter-go-libs', 'https://github.com/trojan-gfw/igniter-go-libs/archive/master.zip',
     # trojan-go
     'https://github.com/p4gefau1t/trojan-go', 'https://github.com/p4gefau1t/trojan-go/archive/master.zip',
     'https://github.com/p4gefau1t/trojan-go-android', 'https://github.com/p4gefau1t/trojan-go-android/archive/trojan-go.zip',
