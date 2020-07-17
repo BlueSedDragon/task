@@ -52,6 +52,9 @@ URLS = list({
     'https://github.com/syncthing/syncthing-macos', 'https://github.com/syncthing/syncthing-macos/archive/develop.zip',
     'https://github.com/syncthing/docs', 'https://github.com/syncthing/docs/archive/main.zip',
 
+    # nebula
+    'https://github.com/slackhq/nebula', 'https://github.com/slackhq/nebula/archive/master.zip',
+
     # monero
     'https://github.com/monero-project/monero', 'https://github.com/monero-project/monero/archive/master.zip',
     'https://github.com/monero-project/monero-gui', 'https://github.com/monero-project/monero-gui/archive/master.zip',
@@ -82,6 +85,20 @@ URLS = list({
 
     # node.js
     'https://github.com/nodejs/node', 'https://github.com/nodejs/node/archive/master.zip',
+
+    # openvpn
+    'https://github.com/OpenVPN/openvpn', 'https://github.com/OpenVPN/openvpn/archive/master.zip',
+    'https://github.com/OpenVPN/openvpn3', 'https://github.com/OpenVPN/openvpn3/archive/master.zip',
+    'https://gitlab.com/openvpn/openvpn', 'https://gitlab.com/openvpn/openvpn/-/archive/master/openvpn-master.zip',
+
+    # wireguard
+    'https://git.zx2c4.com/wireguard-linux/',
+    'https://github.com/WireGuard/wireguard-linux', 'https://github.com/WireGuard/wireguard-linux/archive/stable.zip',
+    'https://github.com/WireGuard/wireguard-go', 'https://github.com/WireGuard/wireguard-go/archive/master.zip',
+    'https://github.com/WireGuard/wireguard-tools', 'https://github.com/WireGuard/wireguard-tools/archive/master.zip',
+    'https://github.com/WireGuard/wireguard-android', 'https://github.com/WireGuard/wireguard-android/archive/master.zip',
+    'https://github.com/WireGuard/wireguard-apple', 'https://github.com/WireGuard/wireguard-apple/archive/master.zip',
+    'https://github.com/WireGuard/wireguard-windows', 'https://github.com/WireGuard/wireguard-windows/archive/master.zip',
 
     # v2ray
     'https://github.com/v2ray/v2ray-core', 'https://github.com/v2ray/v2ray-core/archive/master.zip',
