@@ -168,7 +168,7 @@ URLS = list({
 
 
 def log(*args):
-    print(f'[{time.time()}] ;', *args)
+    print(f'[{time.time()}] |', *args)
 
 
 def display(res):
