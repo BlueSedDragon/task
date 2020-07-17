@@ -141,6 +141,11 @@ URLS = list({
     'https://github.com/shadowsocks/Shadowsocks-Net', 'https://github.com/shadowsocks/Shadowsocks-Net/archive/master.zip',
     'https://github.com/shadowsocks/luci-app-shadowsocks', 'https://github.com/shadowsocks/luci-app-shadowsocks/archive/master.zip',
 
+    # brook
+    'https://github.com/txthinking/brook', 'https://github.com/txthinking/brook/archive/master.zip',
+    'https://github.com/txthinking/mr2', 'https://github.com/txthinking/mr2/archive/master.zip',
+    'https://github.com/txthinking/joker', 'https://github.com/txthinking/joker/archive/master.zip',
+
     # udp2raw
     'https://github.com/wangyu-/udp2raw-tunnel', 'https://github.com/wangyu-/udp2raw-tunnel/archive/unified.zip',
     'https://github.com/wangyu-/udp2raw-multiplatform', 'https://github.com/wangyu-/udp2raw-multiplatform/archive/mp.zip',
