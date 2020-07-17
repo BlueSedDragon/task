@@ -7,7 +7,7 @@ import requests
 import json
 
 USER_AGENT = 'Mozilla/5.0 (X11; Linux x86_64; rv:68.0) Gecko/20100101 Firefox/68.0'
-URLS = [
+URLS = list({
     # linux
     'https://github.com/torvalds/linux', 'https://github.com/torvalds/linux/archive/master.zip',
 
@@ -164,7 +164,7 @@ URLS = [
 
     # i
     'https://github.com/BlueSedDragon/task', 'https://github.com/BlueSedDragon/task/archive/master.zip',
-]
+})
 
 
 def log(*args):
