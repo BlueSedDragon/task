@@ -45,6 +45,12 @@ URLS = list({
     'https://github.com/ipfs/team-mgmt', 'https://github.com/ipfs/team-mgmt/archive/master.zip',
     'https://github.com/ipfs/awesome-ipfs', 'https://github.com/ipfs/awesome-ipfs/archive/master.zip',
     'https://github.com/ipfs/community', 'https://github.com/ipfs/community/archive/master.zip',
+    # shipyard
+    'https://github.com/ipfs-shipyard/shipyard', 'https://github.com/ipfs-shipyard/shipyard/archive/master.zip',
+    'https://github.com/ipfs-shipyard/ipfs-companion', 'https://github.com/ipfs-shipyard/ipfs-companion/archive/master.zip',
+    'https://github.com/ipfs-shipyard/ipfs-desktop', 'https://github.com/ipfs-shipyard/ipfs-desktop/archive/master.zip',
+    'https://github.com/ipfs-shipyard/ipfs-webui', 'https://github.com/ipfs-shipyard/ipfs-webui/archive/master.zip',
+    'https://github.com/ipfs-shipyard/npm-on-ipfs', 'https://github.com/ipfs-shipyard/npm-on-ipfs/archive/master.zip',
 
     # syncthing
     'https://github.com/syncthing/syncthing', 'https://github.com/syncthing/syncthing/archive/main.zip',
