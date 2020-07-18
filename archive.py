@@ -111,6 +111,16 @@ URLS = list({
     'https://github.com/v2fly/v2ray-core', 'https://github.com/v2fly/v2ray-core/archive/master.zip',
     'https://github.com/v2ray/manual', 'https://github.com/v2ray/manual/archive/master.zip',
     'https://github.com/v2fly/manual', 'https://github.com/v2fly/manual/archive/master.zip',
+    # qv2ray
+    'https://github.com/Qv2ray/Qv2ray', 'https://github.com/Qv2ray/Qv2ray/archive/master.zip',
+    'https://github.com/Qv2ray/qv2ray.github.io', 'https://github.com/Qv2ray/qv2ray.github.io/archive/source.zip',
+    'https://github.com/Qv2ray/QvPlugin-SSR', 'https://github.com/Qv2ray/QvPlugin-SSR/archive/master.zip',
+    'https://github.com/Qv2ray/QvPlugin-Trojan', 'https://github.com/Qv2ray/QvPlugin-Trojan/archive/master.zip',
+    'https://github.com/Qv2ray/QvPlugin-Template', 'https://github.com/Qv2ray/QvPlugin-Template/archive/master.zip',
+    'https://github.com/Qv2ray/QvPlugin-Interface', 'https://github.com/Qv2ray/QvPlugin-Interface/archive/interface-v2.zip',
+    # v2rayng
+    'https://github.com/2dust/v2rayNG', 'https://github.com/2dust/v2rayNG/archive/master.zip',
+    'https://github.com/2dust/v2rayN', 'https://github.com/2dust/v2rayN/archive/master.zip',
     # mellow
     'https://github.com/mellow-io/mellow', 'https://github.com/mellow-io/mellow/archive/master.zip',
 
