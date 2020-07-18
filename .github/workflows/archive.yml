@@ -1,9 +1,6 @@
 name: Archive
 
 on:
-  #issues:
-  #  types: [ edited ]
-
   gollum: []
 
   schedule:
