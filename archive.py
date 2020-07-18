@@ -106,6 +106,11 @@ URLS = list({
     'https://github.com/WireGuard/wireguard-apple', 'https://github.com/WireGuard/wireguard-apple/archive/master.zip',
     'https://github.com/WireGuard/wireguard-windows', 'https://github.com/WireGuard/wireguard-windows/archive/master.zip',
 
+    # softether
+    'https://github.com/SoftEtherVPN/SoftEtherVPN', 'https://github.com/SoftEtherVPN/SoftEtherVPN/archive/master.zip',
+    'https://github.com/SoftEtherVPN/SoftEtherVPN_Stable', 'https://github.com/SoftEtherVPN/SoftEtherVPN_Stable/archive/master.zip',
+    'https://github.com/SoftEtherVPN/EtherMirror', 'https://github.com/SoftEtherVPN/EtherMirror/archive/master.zip',
+
     # v2ray
     'https://github.com/v2ray/v2ray-core', 'https://github.com/v2ray/v2ray-core/archive/master.zip',
     'https://github.com/v2fly/v2ray-core', 'https://github.com/v2fly/v2ray-core/archive/master.zip',
