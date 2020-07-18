@@ -92,6 +92,20 @@ URLS = list({
     # node.js
     'https://github.com/nodejs/node', 'https://github.com/nodejs/node/archive/master.zip',
 
+    # wireshark
+    'https://github.com/wireshark/wireshark', 'https://github.com/wireshark/wireshark/archive/master.zip',
+    'https://github.com/wireshark/winpcap', 'https://github.com/wireshark/winpcap/archive/master.zip',
+
+    # tcpdump
+    'https://github.com/the-tcpdump-group/tcpdump', 'https://github.com/the-tcpdump-group/tcpdump/archive/master.zip',
+    'https://github.com/the-tcpdump-group/tcpdump-htdocs', 'https://github.com/the-tcpdump-group/tcpdump-htdocs/archive/master.zip',
+    'https://github.com/the-tcpdump-group/libpcap', 'https://github.com/the-tcpdump-group/libpcap/archive/master.zip',
+
+    # nmap
+    'https://github.com/nmap/nmap', 'https://github.com/nmap/nmap/archive/master.zip',
+    'https://github.com/nmap/npcap', 'https://github.com/nmap/npcap/archive/master.zip',
+    'https://github.com/nmap/ncrack', 'https://github.com/nmap/ncrack/archive/master.zip',
+
     # openvpn
     'https://github.com/OpenVPN/openvpn', 'https://github.com/OpenVPN/openvpn/archive/master.zip',
     'https://github.com/OpenVPN/openvpn3', 'https://github.com/OpenVPN/openvpn3/archive/master.zip',
