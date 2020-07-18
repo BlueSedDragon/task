@@ -1,8 +1,10 @@
 name: Archive
 
 on:
-  issues:
-    types: [ edited ]
+  #issues:
+  #  types: [ edited ]
+
+  gollum: []
 
   schedule:
     # 0 (minute) | any (hour) | any (day) | any (month) | any (day of week)
