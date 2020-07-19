@@ -11,6 +11,20 @@ URLS = list({
     # linux
     'https://github.com/torvalds/linux', 'https://github.com/torvalds/linux/archive/master.zip',
 
+    # quic
+    'https://github.com/cloudflare/quiche', 'https://github.com/cloudflare/quiche/archive/master.zip',
+    'https://github.com/lucas-clemente/quic-go', 'https://github.com/lucas-clemente/quic-go/archive/master.zip',
+    'https://github.com/ngtcp2/ngtcp2', 'https://github.com/ngtcp2/ngtcp2/archive/master.zip',
+    'https://github.com/ngtcp2/nghttp3', 'https://github.com/ngtcp2/nghttp3/archive/master.zip',
+    'https://github.com/aiortc/aioquic', 'https://github.com/aiortc/aioquic/archive/main.zip',
+    'https://github.com/microsoft/msquic', 'https://github.com/microsoft/msquic/archive/master.zip',
+    'https://github.com/litespeedtech/lsquic', 'https://github.com/litespeedtech/lsquic/archive/master.zip',
+
+    # kcp
+    'https://github.com/skywind3000/kcp', 'https://github.com/skywind3000/kcp/archive/master.zip',
+    'https://github.com/xtaci/kcp-go', 'https://github.com/xtaci/kcp-go/archive/master.zip',
+    'https://github.com/xtaci/kcptun', 'https://github.com/xtaci/kcptun/archive/master.zip',
+
     # i2p
     'https://github.com/i2p/i2p.i2p', 'https://github.com/i2p/i2p.i2p/archive/master.zip',
     'https://github.com/i2p/i2psam', 'https://github.com/i2p/i2psam/archive/master.zip',
