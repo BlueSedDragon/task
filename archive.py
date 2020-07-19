@@ -103,6 +103,12 @@ URLS = list({
     # intang
     'https://github.com/seclab-ucr/INTANG', 'https://github.com/seclab-ucr/INTANG/archive/master.zip',
 
+    # cloak
+    'https://github.com/cbeuw/Cloak', 'https://github.com/cbeuw/Cloak/archive/master.zip',
+    'https://github.com/cbeuw/Cloak-android', 'https://github.com/cbeuw/Cloak-android/archive/master.zip',
+    'https://github.com/cbeuw/iiiD6', 'https://github.com/cbeuw/iiiD6/archive/master.zip',
+    'https://github.com/cbeuw/GoQuiet', 'https://github.com/cbeuw/GoQuiet/archive/master.zip',
+
     # node.js
     'https://github.com/nodejs/node', 'https://github.com/nodejs/node/archive/master.zip',
 
