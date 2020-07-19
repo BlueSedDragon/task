@@ -150,9 +150,14 @@ URLS = list({
     # igniter
     'https://github.com/trojan-gfw/igniter', 'https://github.com/trojan-gfw/igniter/archive/master.zip',
     'https://github.com/trojan-gfw/igniter-go-libs', 'https://github.com/trojan-gfw/igniter-go-libs/archive/master.zip',
+
     # trojan-go
     'https://github.com/p4gefau1t/trojan-go', 'https://github.com/p4gefau1t/trojan-go/archive/master.zip',
     'https://github.com/p4gefau1t/trojan-go-android', 'https://github.com/p4gefau1t/trojan-go-android/archive/trojan-go.zip',
+    # trojan-qt5
+    'https://github.com/Trojan-Qt5/Trojan-Qt5', 'https://github.com/Trojan-Qt5/Trojan-Qt5/archive/master.zip',
+    # climber
+    'https://github.com/Climber7/Climber', 'https://github.com/Climber7/Climber/archive/master.zip',
 
     # naiveproxy
     'https://github.com/klzgrad/naiveproxy', 'https://github.com/klzgrad/naiveproxy/archive/master.zip',
