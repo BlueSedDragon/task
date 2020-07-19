@@ -201,6 +201,9 @@ URLS = list({
     'https://github.com/shadowsocks/ChinaDNS-Python', 'https://github.com/shadowsocks/ChinaDNS-Python/archive/master.zip',
     'https://github.com/aa65535/openwrt-chinadns', 'https://github.com/aa65535/openwrt-chinadns/archive/master.zip',
 
+    # frp
+    'https://github.com/fatedier/frp', 'https://github.com/fatedier/frp/archive/master.zip',
+
     # badvpn
     'https://github.com/ambrop72/badvpn', 'https://github.com/ambrop72/badvpn/archive/master.zip',
     'https://github.com/shadowsocks/badvpn', 'https://github.com/shadowsocks/badvpn/archive/shadowsocks-android.zip',
