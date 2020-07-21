@@ -109,6 +109,10 @@ URLS = list({
     'https://github.com/cbeuw/iiiD6', 'https://github.com/cbeuw/iiiD6/archive/master.zip',
     'https://github.com/cbeuw/GoQuiet', 'https://github.com/cbeuw/GoQuiet/archive/master.zip',
 
+    # nginx
+    'https://hg.nginx.org/nginx', 'https://hg.nginx.org/nginx/archive/tip.zip',
+    'https://github.com/nginx/nginx', 'https://github.com/nginx/nginx/archive/master.zip',
+
     # node.js
     'https://github.com/nodejs/node', 'https://github.com/nodejs/node/archive/master.zip',
 
