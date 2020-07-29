@@ -308,7 +308,7 @@ def main():
                     time.sleep(2)
                     raise Exception('HTTP Status == 429')
                 if str(res.status_code)[0] != '2':
-                    raise Exception('HTTP Status != 2XX')
+                    raise Exception(f'HTTP Status {res.status_code} != 2XX')
             except BaseException as err:
                 print(repr(err))
                 left -= 1
