@@ -303,6 +303,8 @@ def main():
         while left > 0:
             try:
                 res = save(url)
+                if len(str(res.status_code)) != 3:
+                    raise Exception(f'Bad HTTP Status {res.status_code}')
                 if res.status_code == 429:
                     left += 1
                     time.sleep(2)
