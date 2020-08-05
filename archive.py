@@ -167,6 +167,7 @@ URLS = list({
     'https://github.com/2dust/v2rayN', 'https://github.com/2dust/v2rayN/archive/master.zip',
     # mellow
     'https://github.com/mellow-io/mellow', 'https://github.com/mellow-io/mellow/archive/master.zip',
+    'https://github.com/mellow-io/go-tun2socks', 'https://github.com/mellow-io/go-tun2socks/archive/master.zip',
 
     # trojan
     'https://github.com/trojan-gfw/trojan', 'https://github.com/trojan-gfw/trojan/archive/master.zip',
