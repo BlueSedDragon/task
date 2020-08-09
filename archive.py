@@ -149,6 +149,9 @@ URLS = list({
     'https://github.com/SoftEtherVPN/SoftEtherVPN_Stable', 'https://github.com/SoftEtherVPN/SoftEtherVPN_Stable/archive/master.zip',
     'https://github.com/SoftEtherVPN/EtherMirror', 'https://github.com/SoftEtherVPN/EtherMirror/archive/master.zip',
 
+    # geneva
+    'https://github.com/kkevsterrr/geneva', 'https://github.com/Kkevsterrr/geneva/archive/master.zip',
+
     # v2ray
     'https://github.com/v2ray/v2ray-core', 'https://github.com/v2ray/v2ray-core/archive/master.zip',
     'https://github.com/v2fly/v2ray-core', 'https://github.com/v2fly/v2ray-core/archive/master.zip',
