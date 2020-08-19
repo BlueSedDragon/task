@@ -4,7 +4,7 @@ on:
   gollum: []
 
   schedule:
-    # 0 (minute) | (hour) % 2 == 0| any (day) | any (month) | any (day of week)
+    # 0 (minute) | (hour) % 2 == 0 | any (day) | any (month) | any (day of week)
     - cron: "0 */2 * * *"
 
 jobs:
