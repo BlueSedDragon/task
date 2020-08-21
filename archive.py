@@ -261,6 +261,9 @@ URLS = list({
     'https://github.com/Loukky/gfwlist-by-loukky', 'https://github.com/Loukky/gfwlist-by-loukky/archive/master.zip',
     'https://github.com/poctopus/gfwlist-plus', 'https://github.com/poctopus/gfwlist-plus/archive/master.zip',
 
+    # retdec
+    'https://github.com/avast/retdec', 'https://github.com/avast/retdec/archive/master.zip',
+
     # i
     'https://github.com/BlueSedDragon/task', 'https://github.com/BlueSedDragon/task/archive/master.zip',
 })
