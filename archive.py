@@ -268,6 +268,9 @@ URLS = list({
     # upx
     'https://github.com/upx/upx', 'https://github.com/upx/upx/archive/master.zip',
 
+    # graphviz
+    'https://gitlab.com/graphviz/graphviz', 'https://gitlab.com/graphviz/graphviz/-/archive/master/graphviz-master.zip',
+
     # i
     'https://github.com/BlueSedDragon/task', 'https://github.com/BlueSedDragon/task/archive/master.zip',
 })
