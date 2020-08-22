@@ -21,6 +21,17 @@ URLS = list({
     'https://github.com/python/typeshed', 'https://github.com/python/typeshed/archive/master.zip',
     'https://github.com/python/devguide', 'https://github.com/python/devguide/archive/master.zip',
 
+    # java
+    'https://github.com/openjdk/jdk', 'https://github.com/openjdk/jdk/archive/master.zip',
+    'https://github.com/openjdk/loom', 'https://github.com/openjdk/loom/archive/fibers.zip',
+    'https://github.com/openjdk/amber', 'https://github.com/openjdk/amber/archive/master.zip',
+    'https://github.com/openjdk/valhalla', 'https://github.com/openjdk/valhalla/archive/lworld.zip',
+    'https://github.com/openjdk/jfx', 'https://github.com/openjdk/jfx/archive/master.zip',
+    'https://github.com/openjdk/jmc', 'https://github.com/openjdk/jmc/archive/master.zip',
+
+    # go
+    'https://github.com/golang/go', 'https://github.com/golang/go/archive/master.zip',
+
     # linux
     'https://github.com/torvalds/linux', 'https://github.com/torvalds/linux/archive/master.zip',
 
