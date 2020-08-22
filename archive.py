@@ -8,6 +8,19 @@ import json
 
 USER_AGENT = 'Mozilla/5.0 (X11; Linux x86_64; rv:68.0) Gecko/20100101 Firefox/68.0'
 URLS = list({
+    # rust
+    'https://github.com/rust-lang/rust', 'https://github.com/rust-lang/rust/archive/master.zip',
+    'https://github.com/rust-lang/cargo', 'https://github.com/rust-lang/cargo/archive/master.zip',
+    'https://github.com/rust-lang/rfcs', 'https://github.com/rust-lang/rfcs/archive/master.zip',
+
+    # python
+    'https://github.com/python/cpython', 'https://github.com/python/cpython/archive/master.zip',
+    'https://github.com/python/pythondotorg', 'https://github.com/python/pythondotorg/archive/master.zip',
+    'https://github.com/python/peps', 'https://github.com/python/peps/archive/master.zip',
+    'https://github.com/python/mypy', 'https://github.com/python/mypy/archive/master.zip',
+    'https://github.com/python/typeshed', 'https://github.com/python/typeshed/archive/master.zip',
+    'https://github.com/python/devguide', 'https://github.com/python/devguide/archive/master.zip',
+
     # linux
     'https://github.com/torvalds/linux', 'https://github.com/torvalds/linux/archive/master.zip',
 
@@ -260,6 +273,15 @@ URLS = list({
     # gfwlist/b
     'https://github.com/Loukky/gfwlist-by-loukky', 'https://github.com/Loukky/gfwlist-by-loukky/archive/master.zip',
     'https://github.com/poctopus/gfwlist-plus', 'https://github.com/poctopus/gfwlist-plus/archive/master.zip',
+
+    # git
+    'https://github.com/git/git', 'https://github.com/git/git/archive/master.zip',
+
+    # make
+    'https://github.com/mirror/make', 'https://github.com/mirror/make/archive/master.zip',
+
+    # cmake
+    'https://github.com/Kitware/CMake', 'https://github.com/Kitware/CMake/archive/master.zip',
 
     # retdec
     'https://github.com/avast/retdec', 'https://github.com/avast/retdec/archive/master.zip',
