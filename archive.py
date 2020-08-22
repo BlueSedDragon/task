@@ -32,6 +32,9 @@ URLS = list({
     # go
     'https://github.com/golang/go', 'https://github.com/golang/go/archive/master.zip',
 
+    # c
+    'https://github.com/llvm/llvm-project', 'https://github.com/llvm/llvm-project/archive/master.zip',
+
     # linux
     'https://github.com/torvalds/linux', 'https://github.com/torvalds/linux/archive/master.zip',
 
