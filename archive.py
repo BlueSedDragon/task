@@ -265,6 +265,9 @@ URLS = list({
     'https://github.com/avast/retdec', 'https://github.com/avast/retdec/archive/master.zip',
     'https://github.com/avast/llvm', 'https://github.com/avast/llvm/archive/master.zip',
 
+    # upx
+    'https://github.com/upx/upx', 'https://github.com/upx/upx/archive/master.zip',
+
     # i
     'https://github.com/BlueSedDragon/task', 'https://github.com/BlueSedDragon/task/archive/master.zip',
 })
