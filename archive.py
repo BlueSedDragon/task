@@ -35,7 +35,10 @@ URLS = list({
     # php
     'https://github.com/php/php-src', 'https://github.com/php/php-src/archive/master.zip',
 
-    # c
+    # v8
+    'https://github.com/v8/v8', 'https://github.com/v8/v8/archive/master.zip',
+
+    # llvm
     'https://github.com/llvm/llvm-project', 'https://github.com/llvm/llvm-project/archive/master.zip',
 
     # linux
@@ -309,6 +312,11 @@ URLS = list({
 
     # graphviz
     'https://gitlab.com/graphviz/graphviz', 'https://gitlab.com/graphviz/graphviz/-/archive/master/graphviz-master.zip',
+
+    # gecko
+    'https://github.com/mozilla/gecko-dev', 'https://github.com/mozilla/gecko-dev/archive/master.zip',
+    # servo
+    'https://github.com/servo/servo', 'https://github.com/servo/servo/archive/master.zip',
 
     # i
     'https://github.com/BlueSedDragon/task', 'https://github.com/BlueSedDragon/task/archive/master.zip',
