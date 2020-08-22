@@ -325,7 +325,7 @@ def save(url):
 
     log('SAVE-REQUEST:', url)
     res = requests.post('https://web.archive.org/save',
-                        data=body, headers=head)
+                        data=body, headers=head, timeout=60)
     log('SAVE-RESPONSE:', url)
 
     return res
