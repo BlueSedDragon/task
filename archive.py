@@ -333,6 +333,14 @@ URLS = list({
     'https://github.com/curl/curl', 'https://github.com/curl/curl/archive/master.zip',
     'https://github.com/curl/curl-www', 'https://github.com/curl/curl-www/archive/master.zip',
 
+    # openssl
+    'https://github.com/openssl/openssl', 'https://github.com/openssl/openssl/archive/master.zip',
+    'https://github.com/openssl/web', 'https://github.com/openssl/web/archive/master.zip',
+
+    # gnutls
+    'https://gitlab.com/gnutls/gnutls', 'https://gitlab.com/gnutls/gnutls/-/archive/master/gnutls-master.zip',
+    'https://github.com/gnutls/gnutls', 'https://github.com/gnutls/gnutls/archive/master.zip',
+
     # gecko
     'https://github.com/mozilla/gecko-dev', 'https://github.com/mozilla/gecko-dev/archive/master.zip',
     # servo
