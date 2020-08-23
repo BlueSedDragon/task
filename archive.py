@@ -306,6 +306,14 @@ URLS = list({
     # busybox
     'https://github.com/mirror/busybox', 'https://github.com/mirror/busybox/archive/master.zip',
 
+    # fish
+    'https://github.com/fish-shell/fish-shell', 'https://github.com/fish-shell/fish-shell/archive/master.zip',
+    'https://github.com/fish-shell/fish-site', 'https://github.com/fish-shell/fish-site/archive/master.zip',
+
+    # zsh
+    'https://github.com/zsh-users/zsh', 'https://github.com/zsh-users/zsh/archive/master.zip',
+    'https://github.com/ohmyzsh/ohmyzsh', 'https://github.com/ohmyzsh/ohmyzsh/archive/master.zip',
+
     # retdec
     'https://github.com/avast/retdec', 'https://github.com/avast/retdec/archive/master.zip',
     'https://github.com/avast/llvm', 'https://github.com/avast/llvm/archive/master.zip',
