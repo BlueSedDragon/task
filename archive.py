@@ -303,6 +303,9 @@ URLS = list({
     # cmake
     'https://github.com/Kitware/CMake', 'https://github.com/Kitware/CMake/archive/master.zip',
 
+    # busybox
+    'https://github.com/mirror/busybox', 'https://github.com/mirror/busybox/archive/master.zip',
+
     # retdec
     'https://github.com/avast/retdec', 'https://github.com/avast/retdec/archive/master.zip',
     'https://github.com/avast/llvm', 'https://github.com/avast/llvm/archive/master.zip',
@@ -317,6 +320,9 @@ URLS = list({
     'https://github.com/mozilla/gecko-dev', 'https://github.com/mozilla/gecko-dev/archive/master.zip',
     # servo
     'https://github.com/servo/servo', 'https://github.com/servo/servo/archive/master.zip',
+
+    # mediawiki
+    'https://github.com/wikimedia/mediawiki', 'https://github.com/wikimedia/mediawiki/archive/master.zip',
 
     # i
     'https://github.com/BlueSedDragon/task', 'https://github.com/BlueSedDragon/task/archive/master.zip',
