@@ -44,6 +44,11 @@ URLS = list({
     # linux
     'https://github.com/torvalds/linux', 'https://github.com/torvalds/linux/archive/master.zip',
 
+    # systemd
+    'https://github.com/systemd/systemd', 'https://github.com/systemd/systemd/archive/master.zip',
+    'https://github.com/systemd/casync', 'https://github.com/systemd/casync/archive/master.zip',
+    'https://github.com/systemd/mkosi', 'https://github.com/systemd/mkosi/archive/master.zip',
+
     # quic
     'https://github.com/cloudflare/quiche', 'https://github.com/cloudflare/quiche/archive/master.zip',
     'https://github.com/lucas-clemente/quic-go', 'https://github.com/lucas-clemente/quic-go/archive/master.zip',
