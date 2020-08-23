@@ -341,6 +341,13 @@ URLS = list({
     'https://gitlab.com/gnutls/gnutls', 'https://gitlab.com/gnutls/gnutls/-/archive/master/gnutls-master.zip',
     'https://github.com/gnutls/gnutls', 'https://github.com/gnutls/gnutls/archive/master.zip',
 
+    # wolfssl
+    'https://github.com/wolfSSL/wolfssl', 'https://github.com/wolfSSL/wolfssl/archive/master.zip',
+    'https://github.com/wolfSSL/wolfMQTT', 'https://github.com/wolfSSL/wolfMQTT/archive/master.zip',
+    'https://github.com/wolfSSL/wolfssh', 'https://github.com/wolfSSL/wolfssh/archive/master.zip',
+    'https://github.com/wolfSSL/wolfTPM', 'https://github.com/wolfSSL/wolfTPM/archive/master.zip',
+    'https://github.com/wolfSSL/wolfBoot', 'https://github.com/wolfSSL/wolfBoot/archive/master.zip',
+
     # gecko
     'https://github.com/mozilla/gecko-dev', 'https://github.com/mozilla/gecko-dev/archive/master.zip',
     # servo
