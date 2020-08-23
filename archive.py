@@ -329,6 +329,10 @@ URLS = list({
     # graphviz
     'https://gitlab.com/graphviz/graphviz', 'https://gitlab.com/graphviz/graphviz/-/archive/master/graphviz-master.zip',
 
+    # curl
+    'https://github.com/curl/curl', 'https://github.com/curl/curl/archive/master.zip',
+    'https://github.com/curl/curl-www', 'https://github.com/curl/curl-www/archive/master.zip',
+
     # gecko
     'https://github.com/mozilla/gecko-dev', 'https://github.com/mozilla/gecko-dev/archive/master.zip',
     # servo
@@ -336,6 +340,9 @@ URLS = list({
 
     # mediawiki
     'https://github.com/wikimedia/mediawiki', 'https://github.com/wikimedia/mediawiki/archive/master.zip',
+
+    # vscode
+    'https://github.com/microsoft/vscode', 'https://github.com/microsoft/vscode/archive/master.zip',
 
     # i
     'https://github.com/BlueSedDragon/task', 'https://github.com/BlueSedDragon/task/archive/master.zip',
