@@ -328,6 +328,15 @@ URLS = list({
     # busybox
     'https://github.com/mirror/busybox', 'https://github.com/mirror/busybox/archive/master.zip',
 
+    # docker
+    'https://github.com/docker/docker-ce', 'https://github.com/docker/docker-ce/archive/master.zip',
+    'https://github.com/docker/compose', 'https://github.com/docker/compose/archive/master.zip',
+    'https://github.com/docker/roadmap', 'https://github.com/docker/roadmap/archive/master.zip',
+    'https://github.com/docker/github-actions', 'https://github.com/docker/github-actions/archive/master.zip',
+    'https://github.com/docker/awesome-compose', 'https://github.com/docker/awesome-compose/archive/master.zip',
+    'https://github.com/docker/build-push-action', 'https://github.com/docker/build-push-action/archive/master.zip',
+    'https://github.com/docker/ecs-plugin', 'https://github.com/docker/ecs-plugin/archive/master.zip',
+
     # openssh
     'https://github.com/openssh/openssh-portable', 'https://github.com/openssh/openssh-portable/archive/master.zip',
 
