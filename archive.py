@@ -311,6 +311,12 @@ URLS = list({
     # busybox
     'https://github.com/mirror/busybox', 'https://github.com/mirror/busybox/archive/master.zip',
 
+    # openssh
+    'https://github.com/openssh/openssh-portable', 'https://github.com/openssh/openssh-portable/archive/master.zip',
+
+    # dropbear
+    'https://github.com/mkj/dropbear', 'https://github.com/mkj/dropbear/archive/master.zip',
+
     # fish
     'https://github.com/fish-shell/fish-shell', 'https://github.com/fish-shell/fish-shell/archive/master.zip',
     'https://github.com/fish-shell/fish-site', 'https://github.com/fish-shell/fish-site/archive/master.zip',
@@ -328,6 +334,13 @@ URLS = list({
 
     # graphviz
     'https://gitlab.com/graphviz/graphviz', 'https://gitlab.com/graphviz/graphviz/-/archive/master/graphviz-master.zip',
+
+    # openwrt
+    'https://github.com/openwrt/openwrt', 'https://github.com/openwrt/openwrt/archive/master.zip',
+    'https://github.com/openwrt/packages', 'https://github.com/openwrt/packages/archive/master.zip',
+    'https://github.com/openwrt/luci', 'https://github.com/openwrt/luci/archive/master.zip',
+    'https://github.com/openwrt/chaos_calmer', 'https://github.com/openwrt/chaos_calmer/archive/chaos_calmer.zip',
+    'https://github.com/openwrt/archive', 'https://github.com/openwrt/archive/archive/master.zip',
 
     # curl
     'https://github.com/curl/curl', 'https://github.com/curl/curl/archive/master.zip',
