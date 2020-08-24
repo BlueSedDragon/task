@@ -359,6 +359,16 @@ URLS = list({
     'https://github.com/openwrt/chaos_calmer', 'https://github.com/openwrt/chaos_calmer/archive/chaos_calmer.zip',
     'https://github.com/openwrt/archive', 'https://github.com/openwrt/archive/archive/master.zip',
 
+    # bind
+    'https://github.com/isc-projects/bind9', 'https://github.com/isc-projects/bind9/archive/main.zip',
+    'https://github.com/isc-projects/kea', 'https://github.com/isc-projects/kea/archive/master.zip',
+    'https://github.com/isc-projects/stork', 'https://github.com/isc-projects/stork/archive/master.zip',
+    'https://github.com/isc-projects/bind9-stats', 'https://github.com/isc-projects/bind9-stats/archive/master.zip',
+    'https://github.com/isc-projects/dhcp', 'https://github.com/isc-projects/dhcp/archive/master.zip',
+
+    # kdig
+    'https://github.com/CZ-NIC/knot', 'https://github.com/CZ-NIC/knot/archive/master.zip',
+
     # curl
     'https://github.com/curl/curl', 'https://github.com/curl/curl/archive/master.zip',
     'https://github.com/curl/curl-www', 'https://github.com/curl/curl-www/archive/master.zip',
