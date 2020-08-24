@@ -44,10 +44,27 @@ URLS = list({
     # linux
     'https://github.com/torvalds/linux', 'https://github.com/torvalds/linux/archive/master.zip',
 
+    # freebsd
+    'https://github.com/freebsd/freebsd', 'https://github.com/freebsd/freebsd/archive/master.zip',
+    'https://github.com/freebsd/freebsd-ports', 'https://github.com/freebsd/freebsd-ports/archive/master.zip',
+    'https://github.com/freebsd/freebsd-doc', 'https://github.com/freebsd/freebsd-doc/archive/master.zip',
+
+    # openbsd
+    'https://github.com/openbsd/src', 'https://github.com/openbsd/src/archive/master.zip',
+    'https://github.com/openbsd/ports', 'https://github.com/openbsd/ports/archive/master.zip',
+    'https://github.com/openbsd/xenocara', 'https://github.com/openbsd/xenocara/archive/master.zip',
+    'https://github.com/openbsd/www', 'https://github.com/openbsd/www/archive/master.zip',
+
+    # dragonfly bsd
+    'https://github.com/DragonFlyBSD/DragonFlyBSD', 'https://github.com/DragonFlyBSD/DragonFlyBSD/archive/master.zip',
+
     # systemd
     'https://github.com/systemd/systemd', 'https://github.com/systemd/systemd/archive/master.zip',
     'https://github.com/systemd/casync', 'https://github.com/systemd/casync/archive/master.zip',
     'https://github.com/systemd/mkosi', 'https://github.com/systemd/mkosi/archive/master.zip',
+
+    # apt
+    'https://github.com/Debian/apt', 'https://github.com/Debian/apt/archive/master.zip',
 
     # quic
     'https://github.com/cloudflare/quiche', 'https://github.com/cloudflare/quiche/archive/master.zip',
