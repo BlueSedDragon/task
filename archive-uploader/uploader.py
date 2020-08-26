@@ -98,14 +98,18 @@ def get_source():
                 break
             version = input('please input version: ')
 
-        version = valid_name(version)
-        name = valid_name(name)
+        f_version = valid_name(version)
+        f_name = valid_name(name)
 
         info = {
-            'idname': f'{name}-{version}',
+            'idname': f'{f_name}-{f_version}',
             'metadata': {
                 'title': title,
-                'date': time.ctime()
+                'time': time.ctime(),
+                'timestamp': str(time.time()),
+                'name': name,
+                'version': version,
+                'command': f'apt source {name}'
             },
             'files': files
         }
