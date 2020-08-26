@@ -1,5 +1,6 @@
 import os
 import time
+import json
 
 try:
     from internetarchive import get_session
@@ -8,21 +9,9 @@ except ImportError as err:
     raise err
 
 ROOT = os.path.abspath('/tmp/code/')
-PACKAGES = tuple({
-        #'apt', 'bash', 'make', 'curl', 'wget', 'rustc',
-        #'nano', 'cargo', 'gzip', 'tar',
-        #'dpkg',
-    })
 
-S3_ACCESS_KEY = ''
-S3_SECRET_KEY = ''
-
-CONFIG = {
-        's3': {
-            'access': S3_ACCESS_KEY,
-            'secret': S3_SECRET_KEY
-        }
-}
+PACKAGES = json.loads(open('./package.json').read())
+CONFIG = json.loads(open('./config.json').read())
 
 SESSION = None
 def new_session():
