@@ -57,7 +57,7 @@ def get_files(walk):
     return files
 
 def valid_name(name):
-    for it in [ '+', '-' ]:
+    for it in [ '+', '~' ]:
         name = name.replace(it, '-')
     return name
 
