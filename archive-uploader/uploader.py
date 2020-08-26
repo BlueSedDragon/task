@@ -12,10 +12,24 @@ except ImportError as err:
 
 ROOT = os.path.abspath('/tmp/code/')
 
-PACKAGES = json.loads(open('./package.json', 'r').read())
+PACKAGES = tuple({
+    'apt', 'make', 'cmake', 'vim', 'nano', 'systemd', 'busybox'
+    'coreutils', 'vlc', 'gimp', 'firefox', 'firefox-esr', 'chromium',
+    'binutils', 'git', 'zip', 'unzip', 'gzip', 'tar', 'i2p', 'tor',
+    'iptables', 'ufw', 'curl', 'wget', 'htop', 'bash', 'fish', 'zsh',
+    'dash', 'python', 'python3.7', 'python2.7', 'lua5.3', 'perl', 'iperf', 'iperf3',
+    'openjdk-11-jdk', 'yum', 'p7zip', 'adb', 'rustc', 'gcc', 'gcc-8', 'g++', 'g++-8',
+    'llvm', 'llvm-7', 'gawk', 'mawk', 'openssl', 'openssh', 'openssh-server', 'dropbear',
+    'bc', 'cron', 'systemd-cron', 'golang', 'golang-1.11', 'cpp', 'cpp-8', 'dpkg', 'emacs',
+    'less', 'tree', 'gpg', 'grep', 'grub', 'grub2', 'dnsutils', 'knot-dnsutils', 'sudo',
+    'net-tools', 'hexedit', 'jq', 'netcat', 'socat', 'nmap', 'wireshark', 'tcpdump',
+    'nodejs', 'gdb', 'xz-utils',
+})
 CONFIG = json.loads(open('./config.json', 'r').read())
 
 SESSION = None
+
+
 def new_session():
     global SESSION
 
@@ -24,8 +38,11 @@ def new_session():
 
     SESSION = get_session(config=CONFIG)
 
+
 def get_directory(name):
     return f'{ROOT}/{name}'
+
+
 def get_files(walk):
     files = {}
 
@@ -38,6 +55,7 @@ def get_files(walk):
         files[fn] = abs_fn
 
     return files
+
 
 def get_source():
     for name in PACKAGES:
@@ -75,16 +93,18 @@ def get_source():
             version = input('please input version: ')
 
         version = version.replace('+', '-')
+        name = name.replace('+', '-')
 
         info = {
-                'idname': f'{name}-{version}',
-                'metadata': {
-                    'title': title,
-                    'date': time.ctime()
-                },
-                'files': files
+            'idname': f'{name}-{version}',
+            'metadata': {
+                'title': title,
+                'date': time.ctime()
+            },
+            'files': files
         }
         yield info
+
 
 def upload(idname, files, metadata):
     if SESSION is None:
@@ -95,10 +115,14 @@ def upload(idname, files, metadata):
     if item.exists:
         raise Exception('item exists!')
 
-    result = item.upload(files, metadata=metadata, checksum=True, verify=True, verbose=True)
+    result = item.upload(files, metadata=metadata,
+                         checksum=True, verify=True, verbose=True)
     return result
 
+
 results = []
+
+
 def main():
     new_session()
     for info in get_source():
@@ -113,5 +137,5 @@ def main():
         print(result)
         results.append(result)
 
-main()
 
+main()
