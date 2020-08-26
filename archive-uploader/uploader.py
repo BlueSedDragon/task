@@ -10,8 +10,8 @@ except ImportError as err:
 
 ROOT = os.path.abspath('/tmp/code/')
 
-PACKAGES = json.loads(open('./package.json').read())
-CONFIG = json.loads(open('./config.json').read())
+PACKAGES = json.loads(open('./package.json', 'r').read())
+CONFIG = json.loads(open('./config.json', 'r').read())
 
 SESSION = None
 def new_session():
