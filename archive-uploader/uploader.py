@@ -51,11 +51,15 @@ def get_files(walk):
     for fn in in_files:
         abs_fn = f'{dirname}/{fn}'
 
-        fn = fn.replace('+', '-')
+        fn = valid_name(fn)
         files[fn] = abs_fn
 
     return files
 
+def valid_name(name):
+    for it in [ '+', '-' ]:
+        name = name.replace(it, '-')
+    return name
 
 def get_source():
     for name in PACKAGES:
@@ -92,8 +96,8 @@ def get_source():
                 break
             version = input('please input version: ')
 
-        version = version.replace('+', '-')
-        name = name.replace('+', '-')
+        version = valid_name(version)
+        name = valid_name(name)
 
         info = {
             'idname': f'{name}-{version}',
