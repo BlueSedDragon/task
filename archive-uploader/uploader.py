@@ -56,10 +56,12 @@ def get_files(walk):
 
     return files
 
+
 def valid_name(name):
-    for it in [ '+', '~' ]:
+    for it in ['+', '~']:
         name = name.replace(it, '-')
     return name
+
 
 def get_source():
     for name in PACKAGES:
@@ -120,7 +122,7 @@ def upload(idname, files, metadata):
         raise Exception('item exists!')
 
     result = item.upload(files, metadata=metadata,
-                         checksum=True, verify=True, verbose=True)
+                         verify=True, verbose=True)
     return result
 
 
