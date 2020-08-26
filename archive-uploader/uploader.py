@@ -101,12 +101,13 @@ def get_source():
         f_version = valid_name(version)
         f_name = valid_name(name)
 
+        timestamp = int(time.time())
         info = {
             'idname': f'{f_name}-{f_version}',
             'metadata': {
                 'title': title,
-                'time': time.ctime(),
-                'timestamp': str(time.time()),
+                'time': time.ctime(timestamp),
+                'timestamp': str(timestamp),
                 'name': name,
                 'version': version,
                 'command': f'apt source {name}'
