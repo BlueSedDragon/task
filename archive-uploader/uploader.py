@@ -23,7 +23,7 @@ PACKAGES = tuple({
     'bc', 'cron', 'systemd-cron', 'golang', 'golang-1.11', 'cpp', 'cpp-8', 'dpkg', 'emacs',
     'less', 'tree', 'gpg', 'grep', 'grub', 'grub2', 'dnsutils', 'knot-dnsutils', 'sudo',
     'net-tools', 'hexedit', 'jq', 'netcat', 'socat', 'nmap', 'wireshark', 'tcpdump',
-    'nodejs', 'gdb', 'xz-utils',
+    'nodejs', 'gdb', 'xz-utils', 'ca-certificates',
 })
 CONFIG = json.loads(open('./config.json', 'r').read())
 
