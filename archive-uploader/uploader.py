@@ -11,7 +11,7 @@ ROOT = os.path.abspath('/tmp/code/')
 PACKAGES = tuple({
         #'apt', 'bash', 'make', 'curl', 'wget', 'rustc',
         #'nano', 'cargo', 'gzip', 'tar',
-        'dpkg',
+        #'dpkg',
     })
 
 S3_ACCESS_KEY = ''
