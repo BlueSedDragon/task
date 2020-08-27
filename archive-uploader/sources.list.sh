@@ -1,5 +1,9 @@
 #!/bin/bash
-TIME=`date +%s || exit 1`
+TIME=`date +%s` || {
+	echo 'get time failed '$?
+	exit 1
+}
+
 cp /etc/apt/sources.list '/etc/apt/sources.list.'$TIME'.bak' || {
 	echo 'cp backup failed '$?
 	exit 2
