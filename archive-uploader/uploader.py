@@ -27,7 +27,7 @@ PACKAGES = tuple({
     'php-cgi', 'mtr', 'traceroute', 'ruby', 'ruby2.7', 'bzip2', 'lzip', 'lz4', 'nginx',
     'apache2', 'libreoffice',
 })
-CONFIG = json.loads(open('./config.json', 'r').read())
+CONFIG = json.load(open('./config.json', 'r'))
 
 SESSION = None
 
