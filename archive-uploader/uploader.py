@@ -13,7 +13,7 @@ except ImportError as err:
 ROOT = os.path.abspath('/tmp/code/')
 
 PACKAGES = tuple({
-    'apt', 'make', 'cmake', 'vim', 'nano', 'systemd', 'busybox'
+    'apt', 'make', 'cmake', 'vim', 'nano', 'systemd', 'busybox',
     'coreutils', 'vlc', 'gimp', 'firefox', 'firefox-esr', 'chromium',
     'binutils', 'git', 'zip', 'unzip', 'gzip', 'tar', 'i2p', 'tor',
     'iptables', 'ufw', 'curl', 'wget', 'htop', 'bash', 'fish', 'zsh',
