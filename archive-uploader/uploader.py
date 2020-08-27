@@ -133,7 +133,7 @@ def upload(idname, files, metadata):
     return result
 
 
-results = []
+results = {}
 
 
 def main():
@@ -148,7 +148,9 @@ def main():
             continue
 
         print(result)
-        results.append(result)
+
+        name = info['metadata']['name']
+        results[name] = result
 
 
 main()
