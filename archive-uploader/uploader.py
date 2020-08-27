@@ -26,6 +26,7 @@ PACKAGES = tuple({
     'nodejs', 'gdb', 'xz-utils', 'ca-certificates', 'dnsmasq', 'php', 'php7.3', 'php-fpm',
     'php-cgi', 'mtr', 'traceroute', 'ruby', 'ruby2.7', 'bzip2', 'lzip', 'lz4', 'nginx',
     'apache2', 'libreoffice',
+    # 'inetutils', 'parted', 'mailman', 'hello', 'autoconf', 'autogen', 'automake',
 })
 CONFIG = json.load(open('./config.json', 'r'))
 
