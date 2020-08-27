@@ -5,3 +5,6 @@ clear:
 run:
 	python3 -i ./uploader.py
 
+apt:
+	bash ./sources.list.sh
+
