@@ -24,7 +24,8 @@ PACKAGES = tuple({
     'less', 'tree', 'gpg', 'grep', 'grub', 'grub2', 'dnsutils', 'knot-dnsutils', 'sudo',
     'net-tools', 'hexedit', 'jq', 'netcat', 'socat', 'nmap', 'wireshark', 'tcpdump',
     'nodejs', 'gdb', 'xz-utils', 'ca-certificates', 'dnsmasq', 'php', 'php7.3', 'php-fpm',
-    'php-cgi'
+    'php-cgi', 'mtr', 'traceroute', 'ruby', 'ruby2.7', 'bzip2', 'lzip', 'lz4', 'nginx',
+    'apache2', 'libreoffice',
 })
 CONFIG = json.loads(open('./config.json', 'r').read())
 
