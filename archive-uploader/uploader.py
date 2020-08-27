@@ -20,7 +20,7 @@ PACKAGES = tuple({
     'dash', 'python', 'python3.7', 'python2.7', 'lua5.3', 'perl', 'iperf', 'iperf3',
     'openjdk-11-jdk', 'yum', 'p7zip', 'adb', 'rustc', 'gcc', 'gcc-8', 'g++', 'g++-8',
     'llvm', 'llvm-7', 'gawk', 'mawk', 'openssl', 'openssh', 'openssh-server', 'dropbear',
-    'bc', 'cron', 'systemd-cron', 'golang', 'golang-1.11', 'cpp', 'cpp-8', 'dpkg', 'emacs',
+    'bc', 'cron', 'systemd-cron', 'golang', 'golang-1.14', 'cpp', 'cpp-8', 'dpkg', 'emacs',
     'less', 'tree', 'gpg', 'grep', 'grub', 'grub2', 'dnsutils', 'knot-dnsutils', 'sudo',
     'net-tools', 'hexedit', 'jq', 'netcat', 'socat', 'nmap', 'wireshark', 'tcpdump',
     'nodejs', 'gdb', 'xz-utils', 'ca-certificates', 'dnsmasq', 'php', 'php7.3', 'php-fpm',
