@@ -1,3 +1,12 @@
 deb https://deb.debian.org/debian sid main
 deb-src https://deb.debian.org/debian sid main
 
+deb https://deb.debian.org/debian testing main
+deb-src https://deb.debian.org/debian testing main
+
+deb https://deb.debian.org/debian stable main
+deb-src https://deb.debian.org/debian stable main
+
+deb https://deb.debian.org/debian buster main
+deb-src https://deb.debian.org/debian buster main
+
