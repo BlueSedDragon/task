@@ -13,3 +13,5 @@ cp ./sources.list /etc/apt/sources.list || {
 	exit 3
 }
 
+apt update
+
