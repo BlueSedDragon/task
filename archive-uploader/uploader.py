@@ -28,6 +28,9 @@ PACKAGES = tuple({
     'traceroute', 'ruby', 'ruby2.7', 'bzip2', 'lzip', 'lz4', 'nginx', 'apache2',
     'libreoffice', 'inetutils', 'parted', 'gparted', 'mailman', 'hello', 'autoconf',
     'autogen', 'automake',
+
+    'aptitude', 'sl', 'amule', 'mariadb-server', 'whois', 'npm', 'mysql-server',
+    'ninja-build', 'manpages', 'man-db',
 })
 CONFIG = json.load(open('./config.json', 'r'))
 
