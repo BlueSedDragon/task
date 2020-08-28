@@ -27,10 +27,10 @@ PACKAGES = tuple({
     'ca-certificates', 'dnsmasq', 'php', 'php7.3', 'php-fpm', 'php-cgi', 'mtr',
     'traceroute', 'ruby', 'ruby2.7', 'bzip2', 'lzip', 'lz4', 'nginx', 'apache2',
     'libreoffice', 'inetutils', 'parted', 'gparted', 'mailman', 'hello', 'autoconf',
-    'autogen', 'automake',
+    'autogen', 'automake', 'aptitude', 'sl', 'amule', 'mariadb-server', 'whois', 'npm',
+    'mysql-server', 'ninja-build', 'manpages', 'man-db',
 
-    'aptitude', 'sl', 'amule', 'mariadb-server', 'whois', 'npm', 'mysql-server',
-    'ninja-build', 'manpages', 'man-db',
+    'zlib',
 })
 CONFIG = json.load(open('./config.json', 'r'))
 
