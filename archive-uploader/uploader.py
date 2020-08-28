@@ -84,6 +84,7 @@ def get_source():
         ls = f'{ROOT}/{name}/'
         walk = next(os.walk(ls))
         files = get_files(walk)
+        files['sources.list'] = './sources.list'
 
         version = None
         for it in walk[2]:
