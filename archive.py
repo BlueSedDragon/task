@@ -370,6 +370,10 @@ URLS = list({
     'https://github.com/openwrt/chaos_calmer', 'https://github.com/openwrt/chaos_calmer/archive/chaos_calmer.zip',
     'https://github.com/openwrt/archive', 'https://github.com/openwrt/archive/archive/master.zip',
 
+    # termux
+    'https://github.com/termux/termux-app', 'https://github.com/termux/termux-app/archive/master.zip',
+    'https://github.com/termux/termux-packages', 'https://github.com/termux/termux-packages/archive/master.zip',
+
     # bind
     'https://github.com/isc-projects/bind9', 'https://github.com/isc-projects/bind9/archive/main.zip',
     'https://github.com/isc-projects/kea', 'https://github.com/isc-projects/kea/archive/master.zip',
