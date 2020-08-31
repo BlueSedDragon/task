@@ -17,16 +17,20 @@ PACKAGES = tuple({
     'coreutils', 'vlc', 'gimp', 'firefox', 'firefox-esr', 'chromium',
     'binutils', 'git', 'zip', 'unzip', 'gzip', 'tar', 'i2p', 'tor',
     'iptables', 'ufw', 'curl', 'wget', 'htop', 'bash', 'fish', 'zsh',
-    'dash', 'python', 'python3.7', 'python2.7', 'lua5.3', 'perl', 'iperf', 'iperf3',
-    'openjdk-11-jdk', 'yum', 'p7zip', 'adb', 'rustc', 'gcc', 'gcc-8', 'g++', 'g++-8',
-    'llvm', 'llvm-7', 'gawk', 'mawk', 'openssl', 'openssh', 'dropbear',
-    'bc', 'cron', 'systemd-cron', 'golang', 'golang-1.14', 'cpp', 'cpp-8', 'dpkg', 'emacs',
-    'less', 'tree', 'gpg', 'grep', 'grub', 'grub2', 'dnsutils', 'knot-dnsutils', 'sudo',
-    'net-tools', 'hexedit', 'jq', 'netcat', 'socat', 'nmap', 'wireshark', 'tcpdump',
-    'nodejs', 'gdb', 'xz-utils', 'ca-certificates', 'dnsmasq', 'php', 'php7.3', 'php-fpm',
-    'php-cgi', 'mtr', 'traceroute', 'ruby', 'ruby2.7', 'bzip2', 'lzip', 'lz4', 'nginx',
-    'apache2', 'libreoffice',
-    # 'inetutils', 'parted', 'mailman', 'hello', 'autoconf', 'autogen', 'automake',
+    'dash', 'python', 'python3.7', 'python2.7', 'lua5.3', 'perl', 'iperf',
+    'iperf3', 'openjdk-11-jdk', 'yum', 'p7zip', 'adb', 'rustc', 'gcc', 'gcc-8',
+    'g++', 'g++-8', 'llvm', 'llvm-7', 'gawk', 'mawk', 'openssl', 'openssh',
+    'dropbear', 'bc', 'cron', 'systemd-cron', 'golang', 'golang-1.14', 'cpp',
+    'cpp-8', 'dpkg', 'emacs', 'less', 'tree', 'gpg', 'grep', 'grub', 'grub2',
+    'dnsutils', 'knot-dnsutils', 'sudo', 'net-tools', 'hexedit', 'jq', 'netcat',
+    'socat', 'nmap', 'wireshark', 'tcpdump', 'nodejs', 'gdb', 'xz-utils',
+    'ca-certificates', 'dnsmasq', 'php', 'php7.3', 'php-fpm', 'php-cgi', 'mtr',
+    'traceroute', 'ruby', 'ruby2.7', 'bzip2', 'lzip', 'lz4', 'nginx', 'apache2',
+    'libreoffice', 'inetutils', 'parted', 'gparted', 'mailman', 'hello', 'autoconf',
+    'autogen', 'automake', 'aptitude', 'sl', 'amule', 'mariadb-server', 'whois', 'npm',
+    'mysql-server', 'ninja-build', 'manpages', 'man-db',
+
+    'zlib',
 })
 CONFIG = json.load(open('./config.json', 'r'))
 
@@ -80,6 +84,7 @@ def get_source():
         ls = f'{ROOT}/{name}/'
         walk = next(os.walk(ls))
         files = get_files(walk)
+        files['sources.list'] = './sources.list'
 
         version = None
         for it in walk[2]:
