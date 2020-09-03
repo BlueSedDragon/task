@@ -416,6 +416,7 @@ URLS = list({
 
     # abcolor
     'https://github.com/BlueSedDragon/abc', 'https://github.com/BlueSedDragon/abc/archive/master.zip',
+    'https://blueseddragon.github.io/abc/',
 
     # i
     'https://github.com/BlueSedDragon/task', 'https://github.com/BlueSedDragon/task/archive/master.zip',
