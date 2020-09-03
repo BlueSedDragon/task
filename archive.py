@@ -414,6 +414,9 @@ URLS = list({
     # vscode
     'https://github.com/microsoft/vscode', 'https://github.com/microsoft/vscode/archive/master.zip',
 
+    # abcolor
+    'https://github.com/BlueSedDragon/abc', 'https://github.com/BlueSedDragon/abc/archive/master.zip',
+
     # i
     'https://github.com/BlueSedDragon/task', 'https://github.com/BlueSedDragon/task/archive/master.zip',
 })
