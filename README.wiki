@@ -1,3 +1,2 @@
 == task ==
-* [[File:https://github.com/BlueSedDragon/task/workflows/Archive/badge.svg|link=|title=Archive]]
-
+* [https://github.com/BlueSedDragon/task/actions?query=workflow%3AArchive [[File:https://github.com/BlueSedDragon/task/workflows/Archive/badge.svg|link=|title=Archive]]]
