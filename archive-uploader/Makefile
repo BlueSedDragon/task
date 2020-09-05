@@ -1,3 +1,6 @@
+all:
+	false
+
 clear:
 	rm -rf /tmp/code/
 	mkdir /tmp/code
