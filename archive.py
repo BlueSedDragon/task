@@ -414,6 +414,11 @@ URLS = list({
     # vscode
     'https://github.com/microsoft/vscode', 'https://github.com/microsoft/vscode/archive/master.zip',
 
+    # copy.sh
+    'https://github.com/copy/v86', 'https://github.com/copy/v86/archive/master.zip',
+    'https://github.com/copy/life', 'https://github.com/copy/life/archive/master.zip',
+    'https://github.com/copy/gdbprofiler', 'https://github.com/copy/gdbprofiler/archive/master.zip',
+
     # abcolor
     'https://github.com/BlueSedDragon/abc', 'https://github.com/BlueSedDragon/abc/archive/master.zip', 'https://github.com/BlueSedDragon/abc/archive/dev.zip',
     'https://blueseddragon.github.io/abc/',
