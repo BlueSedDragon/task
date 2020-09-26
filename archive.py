@@ -15,6 +15,12 @@ URLS = list({
     'https://github.com/rust-lang/cargo', 'https://github.com/rust-lang/cargo/archive/master.zip',
     'https://github.com/rust-lang/rfcs', 'https://github.com/rust-lang/rfcs/archive/master.zip',
 
+    # rust-crate: num
+    'lhttps://github.com/rust-num/num', 'https://github.com/rust-num/num/archive/master.zip',
+
+    # rust-crate: bigdecimal
+    'https://github.com/akubera/bigdecimal-rs', 'https://github.com/akubera/bigdecimal-rs/archive/master.zip',
+
     # python
     'https://github.com/python/cpython', 'https://github.com/python/cpython/archive/master.zip',
     'https://github.com/python/pythondotorg', 'https://github.com/python/pythondotorg/archive/master.zip',
