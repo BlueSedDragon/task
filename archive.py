@@ -128,6 +128,8 @@ URLS = list({
     'https://github.com/ipfs-shipyard/ipfs-desktop', 'https://github.com/ipfs-shipyard/ipfs-desktop/archive/master.zip',
     'https://github.com/ipfs-shipyard/ipfs-webui', 'https://github.com/ipfs-shipyard/ipfs-webui/archive/master.zip',
     'https://github.com/ipfs-shipyard/npm-on-ipfs', 'https://github.com/ipfs-shipyard/npm-on-ipfs/archive/master.zip',
+    # ipfs/wikipedia-mirror
+    'https://github.com/ipfs/distributed-wikipedia-mirror', 'https://github.com/ipfs/distributed-wikipedia-mirror/archive/master.zip',
 
     # syncthing
     'https://github.com/syncthing/syncthing', 'https://github.com/syncthing/syncthing/archive/main.zip',
