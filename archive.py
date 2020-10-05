@@ -174,6 +174,12 @@ URLS = list({
     'https://github.com/cbeuw/iiiD6', 'https://github.com/cbeuw/iiiD6/archive/master.zip',
     'https://github.com/cbeuw/GoQuiet', 'https://github.com/cbeuw/GoQuiet/archive/master.zip',
 
+    # psiphon
+    'https://github.com/Psiphon-Inc/psiphon', 'https://github.com/Psiphon-Inc/psiphon/archive/master.zip',
+    'https://github.com/Psiphon-Labs/psiphon-tunnel-core', 'https://github.com/Psiphon-Labs/psiphon-tunnel-core/archive/master.zip',
+    'https://github.com/Psiphon-Inc/psiphon-automation', 'https://github.com/Psiphon-Inc/psiphon-automation/archive/master.zip',
+    'https://github.com/Psiphon-Inc/psiphon-website', 'https://github.com/Psiphon-Inc/psiphon-website/archive/master.zip',
+
     # nginx
     'https://hg.nginx.org/nginx', 'https://hg.nginx.org/nginx/archive/tip.zip',
     'https://github.com/nginx/nginx', 'https://github.com/nginx/nginx/archive/master.zip',
