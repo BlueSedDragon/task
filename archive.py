@@ -229,7 +229,7 @@ URLS = list({
     # v2ray
     'https://github.com/v2ray/v2ray-core', 'https://github.com/v2ray/v2ray-core/archive/master.zip',
     'https://github.com/v2fly/v2ray-core', 'https://github.com/v2fly/v2ray-core/archive/master.zip',
-    #'https://github.com/v2ray/manual', 'https://github.com/v2ray/manual/archive/master.zip',
+    # 'https://github.com/v2ray/manual', 'https://github.com/v2ray/manual/archive/master.zip',
     # 'https://github.com/v2fly/manual', 'https://github.com/v2fly/manual/archive/master.zip',  # read-only
     'https://github.com/v2fly/v2fly-github-io', 'https://github.com/v2fly/v2fly-github-io/archive/master.zip',
     # qv2ray
