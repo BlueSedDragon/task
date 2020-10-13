@@ -374,6 +374,9 @@ URLS = list({
     'https://github.com/avast/retdec', 'https://github.com/avast/retdec/archive/master.zip',
     'https://github.com/avast/llvm', 'https://github.com/avast/llvm/archive/master.zip',
 
+    # pe_tree
+    'https://github.com/blackberry/pe_tree', 'https://github.com/blackberry/pe_tree/archive/master.zip',
+
     # upx
     'https://github.com/upx/upx', 'https://github.com/upx/upx/archive/master.zip',
 
