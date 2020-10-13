@@ -223,6 +223,9 @@ URLS = list({
     # geneva
     'https://github.com/kkevsterrr/geneva', 'https://github.com/Kkevsterrr/geneva/archive/master.zip',
 
+    # noctilucent
+    'https://github.com/SixGenInc/Noctilucent', 'https://github.com/SixGenInc/Noctilucent/archive/master.zip',
+
     # v2ray
     'https://github.com/v2ray/v2ray-core', 'https://github.com/v2ray/v2ray-core/archive/master.zip',
     'https://github.com/v2fly/v2ray-core', 'https://github.com/v2fly/v2ray-core/archive/master.zip',
