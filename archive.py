@@ -370,6 +370,9 @@ URLS = list({
     'https://github.com/zsh-users/zsh', 'https://github.com/zsh-users/zsh/archive/master.zip',
     'https://github.com/ohmyzsh/ohmyzsh', 'https://github.com/ohmyzsh/ohmyzsh/archive/master.zip',
 
+    # ibus
+    'https://github.com/ibus/ibus', 'https://github.com/ibus/ibus/archive/master.zip',
+
     # retdec
     'https://github.com/avast/retdec', 'https://github.com/avast/retdec/archive/master.zip',
     'https://github.com/avast/llvm', 'https://github.com/avast/llvm/archive/master.zip',
