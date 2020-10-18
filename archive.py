@@ -433,6 +433,9 @@ URLS = list({
     'https://github.com/copy/life', 'https://github.com/copy/life/archive/master.zip',
     'https://github.com/copy/gdbprofiler', 'https://github.com/copy/gdbprofiler/archive/master.zip',
 
+    # 8values
+    'https://github.com/8values/8values.github.io', 'https://github.com/8values/8values.github.io/archive/master.zip',
+
     # abcolor
     'https://github.com/BlueSedDragon/abc', 'https://github.com/BlueSedDragon/abc/archive/master.zip', 'https://github.com/BlueSedDragon/abc/archive/dev.zip',
     'https://blueseddragon.github.io/abc/',
