@@ -223,11 +223,14 @@ URLS = list({
     # geneva
     'https://github.com/kkevsterrr/geneva', 'https://github.com/Kkevsterrr/geneva/archive/master.zip',
 
+    # noctilucent
+    'https://github.com/SixGenInc/Noctilucent', 'https://github.com/SixGenInc/Noctilucent/archive/master.zip',
+
     # v2ray
     'https://github.com/v2ray/v2ray-core', 'https://github.com/v2ray/v2ray-core/archive/master.zip',
     'https://github.com/v2fly/v2ray-core', 'https://github.com/v2fly/v2ray-core/archive/master.zip',
-    #'https://github.com/v2ray/manual', 'https://github.com/v2ray/manual/archive/master.zip',
-    #'https://github.com/v2fly/manual', 'https://github.com/v2fly/manual/archive/master.zip',  # read-only
+    # 'https://github.com/v2ray/manual', 'https://github.com/v2ray/manual/archive/master.zip',
+    # 'https://github.com/v2fly/manual', 'https://github.com/v2fly/manual/archive/master.zip',  # read-only
     'https://github.com/v2fly/v2fly-github-io', 'https://github.com/v2fly/v2fly-github-io/archive/master.zip',
     # qv2ray
     'https://github.com/Qv2ray/Qv2ray', 'https://github.com/Qv2ray/Qv2ray/archive/master.zip',
@@ -367,9 +370,15 @@ URLS = list({
     'https://github.com/zsh-users/zsh', 'https://github.com/zsh-users/zsh/archive/master.zip',
     'https://github.com/ohmyzsh/ohmyzsh', 'https://github.com/ohmyzsh/ohmyzsh/archive/master.zip',
 
+    # ibus
+    'https://github.com/ibus/ibus', 'https://github.com/ibus/ibus/archive/master.zip',
+
     # retdec
     'https://github.com/avast/retdec', 'https://github.com/avast/retdec/archive/master.zip',
     'https://github.com/avast/llvm', 'https://github.com/avast/llvm/archive/master.zip',
+
+    # pe_tree
+    'https://github.com/blackberry/pe_tree', 'https://github.com/blackberry/pe_tree/archive/master.zip',
 
     # upx
     'https://github.com/upx/upx', 'https://github.com/upx/upx/archive/master.zip',
