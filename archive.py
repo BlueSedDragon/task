@@ -449,6 +449,9 @@ URLS = list({
     'https://github.com/BlueSedDragon/abc', 'https://github.com/BlueSedDragon/abc/archive/master.zip', 'https://github.com/BlueSedDragon/abc/archive/dev.zip',
     'https://blueseddragon.github.io/abc/',
 
+    # fos
+    'https://github.com/BlueSedDragon/fos', 'https://github.com/BlueSedDragon/fos/archive/master.zip',
+
     # i
     'https://github.com/BlueSedDragon/task', 'https://github.com/BlueSedDragon/task/archive/master.zip',
 })
