@@ -450,7 +450,7 @@ URLS = list({
     'https://blueseddragon.github.io/abc/',
 
     # fos
-    'https://github.com/BlueSedDragon/fos', 'https://github.com/BlueSedDragon/fos/archive/master.zip',
+    'https://github.com/BlueSedDragon/fos', 'https://github.com/BlueSedDragon/fos/archive/master.zip', 'https://github.com/BlueSedDragon/fos/archive/dev.zip',
 
     # i
     'https://github.com/BlueSedDragon/task', 'https://github.com/BlueSedDragon/task/archive/master.zip',
